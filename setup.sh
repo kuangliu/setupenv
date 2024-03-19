@@ -31,6 +31,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # -------------------------
 # Tools
 # -------------------------
-brew install fd ripgrep zoxide git lazygit neovim
+brew install fd ripgrep zoxide git lazygit neovim ncdu
 brew install lua-language-server pyright autopep8
 
