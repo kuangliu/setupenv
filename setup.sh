@@ -16,7 +16,6 @@ rm -rf brew-install
 # -------------------------
 # Zsh & Ohmyzsh
 # -------------------------
-
 # zsh
 export PATH=/home/linuxbrew/.linuxbrew/bin:$PATH
 brew install zsh
@@ -24,6 +23,9 @@ zsh
 
 # ohmyzsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+git config --add oh-my-zsh.hide-status 1
+git config --add oh-my-zsh.hide-dirty 1
 
 # ohmyzsh-auto-suggestion
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
